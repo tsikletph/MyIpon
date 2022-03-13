@@ -36335,8 +36335,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-logo-image-1 {
-  max-width: 64px;
-  max-height: 64px;
+  width: 100%;
+  height: 100%;
 }
 
 .u-header .u-text-1 {
@@ -36361,8 +36361,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
     margin-left: -19px;
-    width: 64px;
-    height: 32px;
   }
 
   .u-header .u-text-1 {
@@ -36375,11 +36373,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
-@media (max-width: 767px) {
-  .u-header .u-image-1 {
-    width: auto;
-  }
-}
+
 
  .u-footer {
   background-image: none;
